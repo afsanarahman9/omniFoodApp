@@ -238,7 +238,7 @@ h3 {
 }
 
 .works-step:last-of-type {
-  margin-bottom: 80px;
+  margin-bottom: 60px;
 }
 .works-step div {
   color: #e67e22;
@@ -261,4 +261,39 @@ h3 {
   height: 50px;
   width: auto;
   margin-right: 20px;
+}
+
+/* ------------------------------------------- */
+/* ----------- CITIES SECTION ---------------- */
+/* ------------------------------------------- */
+
+.box img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+.city-heading {
+  font-weight: 500;
+}
+.icon-small {
+  display: inline-block;
+  width: 25px;
+  color: #e67e22;
+  text-align: center;
+  margin-right: 10px;
+  font-size: 100%;
+  line-height: 120%;
+  vertical-align: middle;
+  margin-top: -4px;
+}
+
+.city-handle {
+  color: #e67e22;
+  padding-bottom: 3px;
+  border-bottom: 1px solid #e67e22;
+  transition: border-bottom smooth 0.2s;
+}
+.city-handle:hover {
+  color: black;
+  border-bottom: 1px solid transparent;
 }
